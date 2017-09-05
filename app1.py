@@ -169,7 +169,36 @@
   <body> 
   <nav id="navtop">
         <div class="container-fluid">
-      
+      <!--header navbar top left -->
+              <ul class="nav navbar-nav" id="nav-left">
+                <li><a href="#">
+                  <i class="fa fa-user" aria-hidden="true"></i>MY ACCOUNT</a>
+                </li>
+                <li><a href="#">
+                  <i class="fa fa-check-square-o" aria-hidden="true"></i>CHECK OUT</a>
+                </li>
+                <li><a href="#">
+                  <i class="fa fa-heart-o" aria-hidden="true"></i>MY WISHLIST</a>
+                </li>
+              </ul>
+      <!--header navbar top right -->
+              <ul class="nav navbar-nav nav-pills" id="nav-right">
+                <li>
+                  <a href="#">
+                        <i class="fa fa-search" aria-hidden="true"></i>SEARCH</a>
+                </li>
+                <li>
+                  <a href="#">
+                        <i class="fa fa-shopping-bag" aria-hidden="true"></i>MYBAG</a>
+                </li>
+
+                <li><button type="btn btn-default navbar-btn">ENG</button></li>
+
+                <li><button type="btn btn-default navbar-btn">USD</button></li>
+              </ul>
+
+          </div>
+        </nav>
       <!--header navbar LOGO -->
         <div class="text-center" id="logo">
               <a href="#" ><img src="https://s22.postimg.org/owyv8ip5d/logo.jpg" alt="logo" /></a>
@@ -191,10 +220,10 @@
           <ul class="nav nav-justified nav-pills">
               <li class="active"><a href="#">HOMEPAGE</a></li>
               <li><a href="#">PROJECT</a></li>
-              <li><a href="#">SANCTION AMOUNT</a></li>
+              <li><a href="#">SANCTION FUNDS</a></li>
               <li><a href="#">TOURIST PLACE</a></li>
-<li><a href="#">MAINTAINANCE</a></li>
-
+              <li><a href="#">MAINTAINANCE</a></li>
+              
           </ul>
           </div>
         </div>
